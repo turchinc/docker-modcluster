@@ -1,4 +1,4 @@
-FROM sewatech/apache
+FROM turchinc/xenial-apache
 
 ADD proxy_cluster.load /etc/apache2/mods-available/
 ADD cluster.conf /etc/apache2/conf-available/
