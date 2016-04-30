@@ -6,8 +6,8 @@
 
 # Build
 
-	docker build -t turchinc/modcluster .
+	docker build -t turchinc/xenial-modcluster .
 
 # Run
 
-	docker run -p 80:80 -d turchinc/modcluster
+	docker run -p 80:80 -d turchinc/xenial-modcluster
